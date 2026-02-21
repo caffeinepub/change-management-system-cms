@@ -1,0 +1,43 @@
+{
+  "kind": "build_request",
+  "title": "Add Airport Authority of India logo to application",
+  "projectName": "AAI Change Management",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-2",
+      "text": "Add the Airport Authority of India (AAI) official logo to the application header, positioned prominently in the branding area",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-latest"
+        ],
+        "quotes": [
+          "add airport authority of India's logo in the application"
+        ]
+      },
+      "acceptanceCriteria": [
+        "AAI logo is displayed in the Header component",
+        "Logo is visible on all pages where the Header appears",
+        "Logo maintains proper aspect ratio and quality",
+        "Logo is appropriately sized for the header layout"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not modify backend logic or data models",
+    "Maintain existing header functionality (theme toggle, user menu)",
+    "Preserve responsive design across all screen sizes"
+  ],
+  "nonGoals": [
+    "Changing application color scheme",
+    "Modifying footer branding",
+    "Adding additional organizational logos"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Airport Authority of India official logo with transparent background, suitable for header display (aai-logo.dim_200x80.png)"
+    ],
+    "edits": []
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "CMS for Airport Authority of India (AAI)",
+  "architectural_notes": [
+    "Application is a CMS for Airport Authority of India (AAI)"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Airport Authority of India official logo with transparent background, suitable for header display (aai-logo.dim_200x80.png)",
+  "existing_features": [
+    {
+      "id": "feature-remove-the-caffeine-ai-attribution-and-heart-icon-from-the-footer-component",
+      "title": "Remove the caffeine.ai attribution and heart icon from the Footer component",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-the-airport-authority-of-india-aai-official-logo-to-the-application-header-positioned-prominently-in-the-branding-area",
+      "title": "Add the Airport Authority of India (AAI) official logo to the application header, positioned prominently in the branding area",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-2",
+      "summary": "Add Airport Authority of India logo to the application",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "projectName": "Remove caffeine.ai watermark from all pages",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

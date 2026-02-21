@@ -1,0 +1,25 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-add-the-airport-authority-of-india-aai-official-logo-to-the-application-header-positioned-prominently-in-the-branding-area",
+      "featureTitle": "Add the Airport Authority of India (AAI) official logo to the application header, positioned prominently in the branding area",
+      "files": [
+        "frontend/src/components/Header.tsx"
+      ],
+      "components": [
+        "authorization@4.0.0",
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-2"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

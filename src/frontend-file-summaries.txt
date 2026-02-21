@@ -1,0 +1,15 @@
+{
+  "frontend/src/App.tsx": "Main application component that handles authentication flow, profile setup, and renders the dashboard with theme provider and toast notifications.",
+  "frontend/src/hooks/useQueries.ts": "Custom React Query hooks for all backend operations including user profiles, change requests, approvals, team assignments, and implementation updates with proper cache invalidation.",
+  "frontend/src/pages/LoginPage.tsx": "Login page component with Internet Identity authentication and system feature overview.",
+  "frontend/src/pages/ProfileSetupPage.tsx": "Profile setup page for new users to enter their details and select their CMS role.",
+  "frontend/src/pages/DashboardPage.tsx": "Main dashboard page with tabbed navigation for overview, change requests list, create form, and reports.",
+  "frontend/src/components/Header.tsx": "Application header displaying the AAI logo, system title, theme toggle, and user profile dropdown with logout functionality.",
+  "frontend/src/components/Footer.tsx": "Application footer displaying only the copyright notice with dynamic year.",
+  "frontend/src/components/DashboardOverview.tsx": "Dashboard overview showing statistics, priority distribution, recent requests, and pending actions for the current user's role.",
+  "frontend/src/components/ChangeRequestList.tsx": "Comprehensive list view of all change requests with search and filtering by status and priority.",
+  "frontend/src/components/CreateChangeRequestForm.tsx": "Complete form for creating new change requests with file uploads for implementation and rollback plans.",
+  "frontend/src/components/ChangeRequestDetails.tsx": "Detailed view of a single change request with approval actions, team assignment, implementation updates, and full audit history; fixed TypeScript errors by properly typing variables as undefined instead of null for optional backend fields.",
+  "frontend/src/components/ReportsView.tsx": "Reports and analytics page with charts for status distribution, priority breakdown, success rates, and data export functionality.",
+  "frontend/src/index.css": "Global styles with OKLCH color system customized for a professional IT management application with purple/blue primary colors."
+}
